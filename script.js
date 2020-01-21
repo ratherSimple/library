@@ -12,6 +12,8 @@ function addBookToLibrary(form) {
     form.reset();
     const removeButtons = Array.from(document.querySelectorAll(".remove-button"));
     removeButtons.forEach(button => button.addEventListener('click', removeBook));
+    const toggleButtons = Array.from(document.querySelectorAll(".toggle-button"));
+    toggleButtons.forEach(button => button.addEventListener('click', toggleRead));
 }
 
 function render(book) {
