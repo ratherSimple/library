@@ -1,0 +1,39 @@
+#table {
+    position: absolute;
+    /* left:0; */
+    font-size:20px;
+    top: 20%;;
+
+}
+
+.table-heading {
+    padding: 0 150px 50px 150px;
+}
+
+.table-item {
+    padding: 0 150px 50px 150px;
+}
+
+#add-book {
+    position: absolute;
+    left:40%;
+    top:5%;
+}
+
+#form {
+    position: absolute;
+    left:20%;
+    top:5%;
+}
+
+.form-item {
+    font-size:1em;
+    padding: 0 10px;
+    margin: 0 20px;
+}
+
+.checkbox {
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
